@@ -8,5 +8,7 @@ trigger:
 - task: CmdLine@2
   inputs:
     script: |
-      echo Write your commands here
+      javac HelloWorld.java
+
+      java HelloWorld
       
