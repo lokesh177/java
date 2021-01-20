@@ -5,6 +5,8 @@
 
 trigger:
 - main
+
+container:
 - task: CmdLine@2
   inputs:
     script: |
